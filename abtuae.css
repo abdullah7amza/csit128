@@ -1,0 +1,32 @@
+.currencyxchange {
+    float: left;
+}
+.extraInfo {
+    float: left;
+}
+.maininfo {
+    position: relative;
+}
+.info {
+    position: static;
+}
+
+.maininfo h1 {
+  color: cadetblue;
+  margin-left: 100px;
+}
+
+.info h1 {
+  color: cadetblue;
+  margin-left: 100px;
+}
+.xch td, tr, th{
+  border: 1px solid black;
+}
+#all p, table{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.maininfo p { 
+  text-align: justify;
+}

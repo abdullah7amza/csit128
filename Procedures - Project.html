@@ -1,0 +1,229 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="project.css">
+  <title>Travel Procedures</title>
+</head>
+<style>
+* {box-sizing: border-box}
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: beige;
+  width: 30%;
+  height: 1080px;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: cadetblue;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 0px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 1920px;
+  text-align: justify;
+  font-size: 20px;
+}
+.container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: beige;
+  color: cadetblue;
+  text-align: left;
+}
+    </style>
+    <body style="background-color: beige;">
+        <div class="topnav" id="myTopnav">
+          <a href="Home%20Page%20-%20Project.html">Home</a>
+          <a href="About%20UAE%20-%20Project.html">About UAE</a>
+          <a href="PlacesToVisit.html">Places to Visit</a>
+          <a href="https://localhost/Hotels%20-%20Project.html">Hotels</a>
+          <a href="How%20To%20Navigate%20-%20Project.html">How to Navigate</a>
+          <div class="dropdown">
+            <button class="dropbtn">COVID-19 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Corona%20-%20Project.html">Novel Coronavirus</a>
+              <a class="active" href="Procedures%20-%20Project.html">Travel Procedures</a>
+              <a href="Precautions%20-%20Project.html">Protection</a>
+            </div>
+          </div> 
+          <a href="Map%20-%20Project.html">Map</a>
+          <a href="Comments%20-%20Project.html">Comments</a>
+          <a href="Contact%20Us%20-%20Project.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div class="tab">
+                <button class="tablinks" onclick="openInfo(event, 'TTD')" id="defaultOpen">TRAVEL TO DUBAI REQUIREMENTS</button>
+                <button class="tablinks" onclick="openInfo(event, 'DD')">PROCEDURES FROM DEPARTURE DESTINATION</button>
+                <button class="tablinks" onclick="openInfo(event, 'ATD')">PROCEDURES UPON ARRIVAL AT DUBAI AIRPORTS</button>
+                <button class="tablinks" onclick="openInfo(event, 'LDA')">PROCEDURES FOR LEAVING DUBAI AIRPORTS</button>
+                <button class="tablinks" onclick="openInfo(event, 'TPC')">FOR TOURISTS TESTING POSITIVE FOR COVID-19</button>
+              </div>
+              
+              <div id="TTD" class="tabcontent">
+                <h3>Travel to Dubai requirements</h3>
+                <p><ol>
+                    <li>Fulfil entry visa requirements to visit the UAE.</li>
+                    <li>Ensure you have medical travel insurance before traveling, in the event you do not have international coverage. Sign a declaration to bear all costs of quarantine and treatment and complete the Health Declaration Form before departure to ensure the passenger has no COVID-19 symptoms.</li>
+                    <li>Tourists required to register all their details in the COVID-19 DXB app</li>
+                </ol></p>
+              </div>
+              
+              <div id="DD" class="tabcontent">
+                <h3>Procedures from departure destination</h3>
+                <p>Tourists must take a PCR test up to four days (prior to their date of travel (maximum 96 hours)</p>
+                <p><ol>
+                    <li>Take a PCR test before traveling, or if this has not been done, a PCR test is carried out upon arrival at Dubai airports.</li>
+                    <li>Complete Health Declaration Form before departing.</li>
+                    <li>Airlines have the right to deny travelers if they display any symptoms of COVID-19.</li>
+                </ol></p> 
+              </div>
+              
+              <div id="ATD" class="tabcontent">
+                <h3>Procedures upon arrival at Dubai airports</h3>
+                <p>In the event the tourist is not carrying a valid PCR test result, a test is carried out at Dubai airports</p>
+                <p><ol>
+                    <li>All arrival passengers have their temperature taken with thermal screening devices.</li>
+                    <li>Tourists who do not carry a valid PCR test result take the test upon arrival</li>
+                    <li>The PCR test can be repeated for tourists who had tested negative before departing but display COVID-19 symptoms</li>
+                </ol></p>
+              </div>
+              
+              <div id="LDA" class="tabcontent">
+                <h3>Procedures for leaving Dubai airports</h3>
+                <p><ol>
+                    <li>Tourists required to download the COVID-19 DXB app</li>
+                    <li>14-day quarantine imposed for all positive COVID-19 cases</li>
+                    <li>Compliance with all precautionary measures applied in Dubai (wearing masks, maintaining 2m social distance and washing hands regularly)</li>
+                </ol></p> 
+              </div>
+              
+              <div id="TPC" class="tabcontent">
+                <h3>For tourists testing positive for COVID-19</h3>
+                <p><ol><li>Strict compliance with the procedures set out for positive cases by the COVID-19 Command and Control Centre, including institutional quarantine, home quarantine or hospitalization</li></ol></p>
+              </div>
+              <footer class="footer">
+                <hr>
+                <div class="container">
+                  <ul class="hypers">
+                    <li class="p1">
+                      <h2 class="footerheader">Easy Access</h2>
+                      <ul>
+                        <li>
+                          <a href="About%20UAE%20-%20Project.html">About UAE</a>
+                        </li>
+                        <li>
+                          <a href="Places%20To%20Visit%20-%20Project.html">Places to Visit</a>
+                        </li>
+                        <li>
+                          <a href="Hotels%20-%20Project.html">Hotels</a>
+                        </li>
+                        <li>
+                          <a href="How%20To%20Navigate%20-%20Project.html">How to Navigate</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="p2">
+                      <h2 class="footerheader">COVID-19</h2>
+                      <ul>
+                        <li>
+                          <a href="Corona%20-%20Project.html">Novel Coronavirus</a>
+                        </li>
+                        <li>
+                          <a href="Procedures%20-%20Project.html">Travel Procedures</a>
+                        </li>
+                        <li>
+                          <a href="Precautions%20-%20Project.html">Protection</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="p3">
+                      <h2 class="footerheader">Others</h2>
+                      <ul>
+                        <li>
+                          <a href="Home%20Page%20-%20Project.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="Map%20-%20Project.html">Map</a>
+                        </li>
+                        <li>
+                          <a href="Comments%20-%20Project.html">Comments</a>
+                        </li>
+                        <li>
+                          <a href="Contact%20Us%20-%20Project.html">Contact Us</a>
+                        </li>
+                      </ul>
+                    </li>
+                    </ul>
+                  <div class="me">
+                    <div class="row">
+                      <div class="pic">
+                        <img alt="logo" src="mylogo.jpg" style="height: 50px; width: 50px;">
+                      </div>
+                      <div class="details">
+                        <address>
+                          <span>University of Wollongong in Dubai</span><br>
+                          Dubai, United Arab Emirates<br>
+                          <span>Phone: <a href="tel:+971566078846">+971(0)56-607-8846</a></span>
+                        </address>
+                      </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+              </footer>
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+              }
+            }
+            function openInfo(evt, infoName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(infoName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+                </script>
+                
+                </body>
+                </html>

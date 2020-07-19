@@ -1,0 +1,135 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="project.css">
+  <title>Home</title>
+</head>
+<style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .load {
+            animation: slide 2s;
+        }
+        .slider {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            animation: slide 20s infinite;
+        }
+        .content {
+            color: white;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .principal {
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        .principal h1{
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+        @keyframes slide{
+          0%{
+            background-image: url('DXB.png');
+          } 
+          14%{
+            background-image: url('DXB.png');
+          } 
+          14.01%{
+            background-image: url('AD.png');
+          } 
+          28%{
+            background-image: url('AD.png');
+          } 
+          28.01%{
+            background-image: url('SHJ.png');
+          } 
+          42%{
+            background-image: url('SHJ.png');
+          } 
+          42.01%{
+            background-image: url('ajman.png');
+          } 
+          56%{
+            background-image: url('ajman.png');
+          } 
+          56.01%{
+            background-image: url('UAQ.png');
+          } 
+          70%{
+            background-image: url('UAQ.png');
+          } 
+          70.01%{
+            background-image: url('RAK.png');
+          } 
+          84%{
+            background-image: url('RAK.png');
+          } 
+          84.01%{
+            background-image: url('fu.png');
+          } 
+          98%{
+            background-image: url('fu.png');
+          } 
+        }
+    </style>
+    </head>
+    <body style="background-color: beige;">
+      <div class="topnav" id="myTopnav">
+      <a class="active" href="Home%20Page%20-%20Project.html">Home</a>
+          <a href="About%20UAE%20-%20Project.html">About UAE</a>
+          <a href="PlacesToVisit.html">Places to Visit</a>
+          <a href="https://localhost/Hotels%20-%20Project.html">Hotels</a>
+          <a href="How%20To%20Navigate%20-%20Project.html">How to Navigate</a>
+          <div class="dropdown">
+            <button class="dropbtn">COVID-19 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Corona%20-%20Project.html">Novel Coronavirus</a>
+              <a href="Procedures%20-%20Project.html">Travel Procedures</a>
+              <a href="Precautions%20-%20Project.html">Protection</a>
+            </div>
+          </div> 
+          <a href="Map%20-%20Project.html">Map</a>
+          <a href="Comments%20-%20Project.html">Comments</a>
+          <a href="Contact%20Us%20-%20Project.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div class="slider">
+          <div class="load">
+          </div>
+          <div class="content">
+              <div class="principal">
+                  <h1></h1>
+              </div>
+          </div>
+      </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+          }
+        }
+            </script>
+            
+            </body>
+            </html>
+            

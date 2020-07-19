@@ -1,0 +1,134 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="commentscontactus.css">
+  <title>Contact Us</title>
+</head>
+    <body style="background-color: beige;">
+        <div class="topnav" id="myTopnav">
+          <a href="Home%20Page%20-%20Project.html">Home</a>
+          <a href="About%20UAE%20-%20Project.html">About UAE</a>
+          <a href="PlacesToVisit.html">Places to Visit</a>
+          <a href="https://localhost/Hotels%20-%20Project.html">Hotels</a>
+          <a href="How%20To%20Navigate%20-%20Project.html">How to Navigate</a>
+          <div class="dropdown">
+            <button class="dropbtn">COVID-19 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Corona%20-%20Project.html">Novel Coronavirus</a>
+              <a href="Procedures%20-%20Project.html">Travel Procedures</a>
+              <a href="Precautions%20-%20Project.html">Protection</a>
+            </div>
+          </div> 
+          <a href="Map%20-%20Project.html">Map</a>
+          <a href="Comments%20-%20Project.html">Comments</a>
+          <a class="active" href="Contact%20Us%20-%20Project.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <h3 style="background-color: beige; color: cadetblue; text-align: center; font-size: 30px;">Contact Form</h3>
+          <div class="container">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First Name.." pattern="^[A-Za-z]{1,}" required>
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name" pattern="^[A-Za-z]{1,}" required>
+
+              <label for="cnumber">Contact Number:</label>
+              <input type="text" id="cnumber" placeholder="(05X)-XXX-XXXX" pattern="^(050|052|054|055|056|058)[0-9]{7}" maxlength="10" required>
+
+              <label for="subject">Message</label>
+              <textarea id="Message" name="Message" placeholder="Write Your Message.." style="height:200px" required></textarea>
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <footer class="footer">
+            <hr>
+            <div class="container">
+              <ul class="hypers">
+                <li class="p1">
+                  <h2 class="footerheader">Easy Access</h2>
+                  <ul>
+                    <li>
+                      <a href="About%20UAE%20-%20Project.html">About UAE</a>
+                    </li>
+                    <li>
+                      <a href="Places%20To%20Visit%20-%20Project.html">Places to Visit</a>
+                    </li>
+                    <li>
+                      <a href="https://localhost/Hotels%20-%20Project.html">Hotels</a>
+                    </li>
+                    <li>
+                      <a href="How%20To%20Navigate%20-%20Project.html">How to Navigate</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="p2">
+                  <h2 class="footerheader">COVID-19</h2>
+                  <ul>
+                    <li>
+                      <a href="Corona%20-%20Project.html">Novel Coronavirus</a>
+                    </li>
+                    <li>
+                      <a href="Procedures%20-%20Project.html">Travel Procedures</a>
+                    </li>
+                    <li>
+                      <a href="Precautions%20-%20Project.html">Protection</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="p3">
+                  <h2 class="footerheader">Others</h2>
+                  <ul>
+                    <li>
+                      <a href="Home%20Page%20-%20Project.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="Map%20-%20Project.html">Map</a>
+                    </li>
+                    <li>
+                      <a href="Comments%20-%20Project.html">Comments</a>
+                    </li>
+                    <li>
+                      <a href="Contact%20Us%20-%20Project.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </li>
+                </ul>
+              <div class="me">
+                <div class="row">
+                  <div class="pic">
+                    <img alt="logo" src="mylogo.jpg" style="height: 50px; width: 50px;">
+                  </div>
+                  <div class="details">
+                    <address>
+                      <span>University of Wollongong in Dubai</span><br>
+                      Dubai, United Arab Emirates<br>
+                      <span>Phone: <a href="tel:+971566078846">+971(0)56-607-8846</a></span>
+                    </address>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+          </footer>
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+              }
+            }
+                </script>
+                
+                </body>
+                </html>

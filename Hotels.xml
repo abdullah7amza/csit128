@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "Rule.xsl"?>
+<category>
+   <hotel name="Anantara The Palm Dubai Resort">
+      <branch>1</branch>
+      <price>300-650AED</price>
+      <emirate>Dubai</emirate>
+   </hotel>
+
+   <hotel name="Four Seasons Resort Dubai at Jumeirah Beach">
+      <branch>4</branch>
+      <price>540-830AED</price>
+      <emirate>Dubai</emirate>
+   </hotel>
+
+   <hotel name="Waldorf Astoria Dubai Palm Jumeirah">
+      <branch>1</branch>
+      <price>720-1020AED</price>
+      <emirate>Dubai</emirate>
+   </hotel>
+
+   <hotel name="The Chedi Al Bait">
+      <branch>2</branch>
+      <price>430-570AED</price>
+      <emirate>Sharjah</emirate>
+   </hotel>
+
+   <hotel name="GHM hotel">
+      <branch>2</branch>
+      <price>740-920AED</price>
+      <emirate>Sharjah</emirate>
+   </hotel>
+
+   <hotel name="Sheraton Sharjah Beach Resort and Spa">
+      <branch>5</branch>
+      <price>450-760AED</price>
+      <emirate>Sharjah</emirate>
+   </hotel>
+
+   <hotel name="Radisson Blu Resort">
+      <branch>6</branch>
+      <price>560-820AED</price>
+      <emirate>Ras-Al-Khaimah</emirate>
+   </hotel>
+
+   <hotel name="Hilton Garden Inn Ras Al Khaimah">
+      <branch>4</branch>
+      <price>320-500AED</price>
+      <emirate>Ras-Al-Khaimah</emirate>
+   </hotel>
+
+   <hotel name="Mughal Suites">
+      <branch>1</branch>
+      <price>250-480AED</price>
+      <emirate>Ras-Al-Khaimah</emirate>
+   </hotel>
+
+   <hotel name="The Cove Rotana Resort">
+      <branch>4</branch>
+      <price>470-630AED</price>
+      <emirate>Fujairah</emirate>
+   </hotel>
+
+   <hotel name="Hilton Ras Al Khaimah Resort and Spa">
+      <branch>3</branch>
+      <price>650-820AED</price>
+      <emirate>Ras-Al-Khaimah</emirate>
+   </hotel>
+
+   <hotel name="Saadiyat Rotana Resort and Villas">
+      <branch>5</branch>
+      <price>480-720AED</price>
+      <emirate>Ajman</emirate>
+   </hotel>
+
+   <hotel name="Emirates Palace">
+      <branch>2</branch>
+      <price>720-830AED</price>
+      <emirate>Abu-Dhabi</emirate>
+   </hotel>
+
+   <hotel name="Hotel Fairmont Ajman">
+      <branch>1</branch>
+      <price>400-560AED</price>
+      <emirate>Ajman</emirate>
+   </hotel>
+
+   <hotel name="The Oberoi Beach Resort">
+      <branch>1</branch>
+      <price>230-450AED</price>
+      <emirate>Abu-Dhabi</emirate>
+   </hotel>
+
+   <hotel name="Al Zorah, Ajman Saray">
+      <branch>1</branch>
+      <price>380-500AED</price>
+      <emirate>Ajman</emirate>
+   </hotel>
+</category>
